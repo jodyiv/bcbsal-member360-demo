@@ -1,6 +1,6 @@
 # DEPLOY_TARGET: openshift
-# BUILD_ARCH: arm64
-FROM --platform=linux/amd64 registry.access.redhat.com/ubi9/python-311
+# BUILD_ARCH: amd64
+FROM registry.access.redhat.com/ubi9/python-311
 WORKDIR /opt/app-root/src
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt

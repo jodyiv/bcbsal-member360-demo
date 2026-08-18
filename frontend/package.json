@@ -1,0 +1,29 @@
+{
+  "name": "bcbsal-member360-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@carbon/charts": "^1.27.18",
+    "@carbon/charts-react": "^1.27.18",
+    "@carbon/icons-react": "^11.56.1",
+    "@carbon/react": "^1.73.0",
+    "@carbon/styles": "^1.73.0",
+    "axios": "^1.7.7",
+    "mermaid": "^11.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "sass": "^1.80.6",
+    "vite": "^5.4.10"
+  }
+}

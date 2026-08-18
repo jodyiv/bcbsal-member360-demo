@@ -1,0 +1,190 @@
+Generate a Working Member 360 Lakehouse Demo for Blue Cross & Blue Shield of Alabama.
+You are a Principal Data & AI Solution Architect.
+
+Design a realistic working demonstration for a healthcare payer organization implementing a modern Data Lakehouse platform.
+
+The purpose of the demo is to show BUSINESS VALUE, not technology components.
+
+The base environment is proposed to be watsonx.data with watsonx.data integration and watsonx.data intelligence all SaaS.
+
+====================================================
+ENVIRONMENT
+====================================================
+
+The organization is a regional health insurer.
+
+Current environment:
+
+• Structured member data exists across multiple systems:
+  - Member enrollment
+  - Claims
+  - Provider network
+  - Care management
+  - Pharmacy systems
+
+• Unstructured data exists in an enterprise content repository:
+  - Hospital discharge summaries
+  - Clinical notes
+  - Referral documents
+  - Prior authorization documents
+  - Case management notes
+  - PDFs
+  - Images and scanned records
+
+• Business users currently cannot easily access a complete member view without consulting multiple systems.
+
+• Data engineers spend significant effort creating custom data extracts and reports.
+
+• Analytics teams experience delays obtaining data products.
+
+• Leadership wants measurable value within months rather than waiting years for platform completion.
+
+====================================================
+LAKEHOUSE GOAL
+====================================================
+
+Demonstrate how the lakehouse becomes the foundation for:
+
+1. Member 360
+2. Data for AI
+3. Self-service analytics
+4. Unstructured data integration
+5. Governance and lineage
+6. Future AI assistants
+
+====================================================
+DEMO OBJECTIVE
+====================================================
+
+Build an end-to-end business scenario showing how a care manager investigates a member.
+
+The demo should begin with a question:
+
+"Why is Member Jane Smith considered high risk?"
+
+The system should use both structured and unstructured data to answer.
+
+====================================================
+DEMO DATA MODEL
+====================================================
+
+Create realistic synthetic data for:
+
+MEMBER
+- Member ID
+- Demographics
+- Coverage information
+
+CLAIMS
+- Claims history
+- Chronic conditions
+- Cost trends
+
+PROVIDERS
+- PCP
+- Specialists
+
+CARE MANAGEMENT
+- Open interventions
+- Risk scores
+
+PHARMACY
+- Medications
+- Gaps in adherence
+
+FILE REPOSITORY CONTENT
+- Discharge summary
+- Referral documents
+- Prior authorization PDFs
+- Nurse notes
+- Case manager notes
+
+====================================================
+DEMO EXPERIENCE
+====================================================
+
+Step 1
+Show fragmented source systems.
+
+Step 2
+Show ingestion into a unified lakehouse.
+
+Step 3
+Show automated metadata generation and governance.
+
+Step 4
+Show unstructured document processing and vectorization.
+
+Step 5
+Present a unified Member 360 dashboard.
+
+Step 6
+Allow natural language questions:
+
+"Show everything about Jane Smith."
+"What drives her risk score?"
+"Summarize recent hospital activity."
+"Are there care gaps?"
+"What interventions should be prioritized?"
+
+Step 7
+Use AI-generated insights that combine:
+
+- Claims data
+- Clinical documents
+- Care management notes
+- Pharmacy data
+
+====================================================
+BUSINESS VALUE OUTPUT
+====================================================
+
+Quantify realistic outcomes:
+
+- Faster member investigations
+- Reduced time locating information
+- Reduced report development effort
+- Improved member visibility
+- Better HEDIS-related insights
+- Faster care management decisions
+
+====================================================
+EXECUTIVE DASHBOARD
+====================================================
+
+Create an executive summary page showing:
+
+- Time to value
+- Member 360 adoption
+- Number of integrated data sources
+- Analyst productivity gains
+- Care management efficiency gains
+- AI readiness score
+
+====================================================
+SUCCESS CRITERIA
+====================================================
+
+The final output should convince an executive sponsor that:
+
+1. The first business value can be achieved quickly.
+2. Member 360 is the initial quick-win use case.
+3. The same lakehouse foundation supports future AI initiatives.
+4. Structured and unstructured data together create differentiated business value.
+5. The initiative is outcome-driven rather than platform-driven.
+
+Deliver:
+
+- Architecture diagram
+- Data model
+- Demo workflow
+- User journeys
+- Sample data
+- Sample AI responses
+- Executive value narrative
+- Technical implementation roadmap
+
+Bonus executive framing slide
+If someone asks, "Why should we fund this?" use this one-sentence narrative:
+"The Lakehouse enables BCBS AL to create a Member 360 experience that combines structured claims and enrollment data with unstructured clinical content, delivering faster member insights, improved care-management effectiveness, and an AI-ready foundation without waiting for a multi-year platform transformation." 
+
